@@ -2,3 +2,5 @@ interface:
   display_name: "FlintsLabs Codex Marketplace"
   short_description: "Maintain shared Codex marketplace"
   default_prompt: "Use $flintslabs-codex-marketplace to update the shared plugin marketplace."
+policy:
+  allow_implicit_invocation: true

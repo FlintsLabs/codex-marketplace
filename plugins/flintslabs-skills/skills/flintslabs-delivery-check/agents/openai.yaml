@@ -2,3 +2,5 @@ interface:
   display_name: "FlintsLabs Delivery Check"
   short_description: "Verify and summarize finished work"
   default_prompt: "Use $flintslabs-delivery-check before summarizing this change."
+policy:
+  allow_implicit_invocation: true
