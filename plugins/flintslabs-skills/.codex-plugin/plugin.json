@@ -1,0 +1,36 @@
+{
+  "name": "flintslabs-skills",
+  "version": "0.1.0",
+  "description": "Shared Codex skills for FlintsLabs development, debugging, research, and skill authoring workflows.",
+  "author": {
+    "name": "FlintsLabs"
+  },
+  "homepage": "https://github.com/FlintsLabs/codex-marketplace",
+  "repository": "https://github.com/FlintsLabs/codex-marketplace",
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "skills",
+    "debugging",
+    "research",
+    "developer-workflows"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FlintsLabs Skills",
+    "shortDescription": "Shared Codex workflows",
+    "longDescription": "Reusable Codex skills for repo analysis, root-cause debugging, and maintaining FlintsLabs skill workflows across machines.",
+    "developerName": "FlintsLabs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use the FlintsLabs debugging workflow",
+      "Use the FlintsLabs repo research workflow",
+      "Help add a new FlintsLabs skill"
+    ]
+  }
+}
