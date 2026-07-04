@@ -1,7 +1,7 @@
 {
   "name": "flintslabs-skills",
-  "version": "0.1.0",
-  "description": "Shared Codex skills for FlintsLabs development, debugging, research, and skill authoring workflows.",
+  "version": "0.1.1",
+  "description": "Shared Codex skills for FlintsLabs development, debugging, research, delivery, and marketplace maintenance workflows.",
   "author": {
     "name": "FlintsLabs"
   },
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "FlintsLabs Skills",
     "shortDescription": "Shared Codex workflows",
-    "longDescription": "Reusable Codex skills for repo analysis, root-cause debugging, and maintaining FlintsLabs skill workflows across machines.",
+    "longDescription": "Reusable Codex skills for repo analysis, root-cause debugging, delivery checks, skill authoring, and maintaining FlintsLabs workflows across machines.",
     "developerName": "FlintsLabs",
     "category": "Developer Tools",
     "capabilities": [
@@ -30,7 +30,7 @@
     "defaultPrompt": [
       "Use the FlintsLabs debugging workflow",
       "Use the FlintsLabs repo research workflow",
-      "Help add a new FlintsLabs skill"
+      "Update the FlintsLabs Codex marketplace"
     ]
   }
 }
