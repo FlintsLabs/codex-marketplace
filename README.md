@@ -15,15 +15,11 @@ plugins/
 ## Install
 
 ```bash
-codex plugin marketplace add git@github.com:FlintsLabs/codex-marketplace.git --ref main
+codex plugin marketplace add FlintsLabs/codex-marketplace --ref main
 codex plugin add flintslabs-skills@flintslabs
 ```
 
 Open a new Codex thread after installing so newly installed skills are loaded.
-
-This repository is private, so SSH is the recommended install source. The short
-`FlintsLabs/codex-marketplace` form may try HTTPS cloning and fail when prompts
-are disabled.
 
 ## Update On Another Machine
 
